@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassesObjetos
+﻿namespace ClassesObjetos
 {
     class Pessoa
     {
+        public string nome { get; init; }
+        public string sobreNome { get; init; }
+        public int anoNasc { get; init; }
+
+        public Pessoa()
+        {
+
+        }
     }
 }
